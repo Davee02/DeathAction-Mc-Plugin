@@ -1,5 +1,5 @@
 name: DeathAction
-version: 1.0.0.
+version: 1.0.0
 author: David
 main: ch.david.deathAction.DeathAction
 api-version: 1.13
