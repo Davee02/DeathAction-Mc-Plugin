@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DeathActionPlugin:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DeathActionPlugin_jar</output-path>
+    <root id="archive" name="DeathActionPlugin.jar">
+      <element id="module-output" name="DeathActionPlugin" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/res/spigot-api-1.13.2-R0.1-SNAPSHOT.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
