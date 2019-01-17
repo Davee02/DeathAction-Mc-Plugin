@@ -6,11 +6,12 @@ public class DeathAction extends JavaPlugin {
 
     @Override
     public void onEnable(){
-        //Fired when the server enables the plugin
+        getServer().getPluginManager().registerEvents(new DeathListener(), this);
+        System.out.println("Activated DeathAction-plugin");
     }
 
     @Override
     public void onDisable(){
-        //Fired when the server disables the plugin
+        System.out.println("Disabled DeathAction-plugin");
     }
 }
